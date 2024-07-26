@@ -5,15 +5,17 @@ This repository contains the code and configuration for Practical Assessment, wh
 
 Before you begin, ensure you have the following installed:
 
-*Kind: A tool to run Kubernetes clusters in Docker.
-*kubectl: The Kubernetes command-line tool.
-*Docker: Required for building images and running Kind.
-*Ingress Controller: For exposing services via HTTP(S).
+* Kind: A tool to run Kubernetes clusters in Docker.
+* kubectl: The Kubernetes command-line tool.
+* Docker: Required for building images and running Kind.
+* Ingress Controller: For exposing services via HTTP(S).
 
 ## Setup
 
 ### Install Kind and kubectl
-[Kind Installation](https://kind.sigs.k8s.io/docs/user/quick-start/#installation),[kubectl Installation](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+1. [Kind Installation](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
+
+2. [kubectl Installation](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 
 
 ### Create a Kind Cluster
