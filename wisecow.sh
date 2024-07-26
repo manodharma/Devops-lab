@@ -3,6 +3,8 @@
 SRVPORT=4499
 RSPFILE=response
 
+export PATH="/usr/games:${PATH}"
+
 rm -f $RSPFILE
 mkfifo $RSPFILE
 
@@ -25,8 +27,8 @@ EOF
 }
 
 prerequisites() {
-	command -v cowsay >/dev/null 2>&1 &&
-	command -v fortune >/dev/null 2>&1 || 
+	command -v cowsay >/dev/null 2>&1  &&
+	command -v fortune >/dev/null 2>&1 ||
 		{ 
 			echo "Install prerequisites."
 			exit 1
