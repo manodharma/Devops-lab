@@ -1,4 +1,4 @@
-# Devops trainee Practical Assessment
+# Devops lab
 This repository contains the code and configuration for Practical Assessment, which is deployed locally in a Kubernetes cluster using Kind (Kubernetes IN Docker) and exposed via Ingress
 
 ## Prerequisites
